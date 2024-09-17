@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+* {
+    margin: 0;
+}
+
+.jacques-francois-shadow-regular {
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.cabeçalho {
+    background-color: rgb(7, 122, 151);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+.cabeçalho__título {
+    display: grid;
+    font-size: 80px;
+    font-family: "Jacques Francois Shadow";
+    padding-left: 320px;
+}
